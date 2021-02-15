@@ -1,0 +1,40 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+::-webkit-scrollbar {
+	width: 0;
+}
+
+body {
+	cursor: none;
+}
+
+a {
+	text-decoration: none;
+	cursor: none;
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.mainLink {
+	position: absolute;
+	top: 3.5%;
+	left: 6%;
+	font-family: Vienna;
+	font-size: 2.5vh;
+	font-weight: 900;
+	letter-spacing: -2px;
+	/*color: #384338;*/
+  color: #262b2d;
+  transition: color 2s;
+  z-index: 1;
+}
+.mainLink.menuActive {
+  color: #f9f2e2;
+}
