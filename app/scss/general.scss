@@ -22,6 +22,10 @@ a {
 	clear: both;
 }
 
+.container {
+	background-color: #f9f2e2;
+}
+
 .mainLink {
 	position: absolute;
 	top: 3.5%;
@@ -30,10 +34,9 @@ a {
 	font-size: 2.5vh;
 	font-weight: 900;
 	letter-spacing: -2px;
-	/*color: #384338;*/
-  color: #262b2d;
-  transition: color 2s;
-  z-index: 1;
+	color: #262b2d;
+	transition: color 2s;
+	z-index: 1;
 }
 .mainLink.menuActive {
   color: #f9f2e2;

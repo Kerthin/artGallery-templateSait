@@ -1,0 +1,51 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.picture {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 88%;
+	height: 60%;
+	background: url('../img/1280px-KarazinNN_PereprTurkOtrARTM.jpg') center no-repeat;
+	background-size: cover;
+
+	&__titleWrap {
+		position: absolute;
+		top: -7.8%;
+		left: -2.5%;
+		width: 83%;
+		height: 29%;
+	}
+	&__title {
+		font-size: 4.5vw;
+		font-family: Luxes;
+		font-weight: 100;
+		white-space: nowrap;
+		color: #384338;
+
+		span {
+			margin-left: 13%;
+		}
+	}
+
+	&__infoWrap {
+		position: absolute;
+		top: 37%;
+		right: -4.2%;
+		width: 31%;
+		height: 13%;	
+	}
+	&__info {
+		font-size: 2.5vh;
+		font-family: Kornilow;
+		font-weight: 100;
+		word-spacing: 5px;
+		text-align: right;
+		color: #384338;
+	}
+}
