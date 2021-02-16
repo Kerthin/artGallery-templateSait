@@ -1,0 +1,93 @@
+.preload {
+	position: fixed;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	width: 100%;
+	height: 100vh;
+	z-index: 9999;
+	animation: disappearancePreload .1s ease 6.2s forwards;
+
+	&__title {
+		white-space: nowrap;
+		z-index: 9999;
+		color: rgba(249, 242, 226, .3);
+		font-family: Vienna;
+		font-size: 6vh;
+		animation: disappearanceTitle .2s ease 5.3s forwards;
+
+		&:before {
+			content: attr(data-text);
+			position: absolute;
+			overflow: hidden;
+			max-height: 5.4vh;
+			white-space: nowrap;
+			color: #f9f2e2;
+			animation: loadingTitle 4s ease;
+		}
+	}
+
+	&__side {
+	  position: absolute;
+	  width: 50%;
+	  height: 100vh;
+	  background-color: #262b2d;
+	}
+	&__line {
+		position: absolute;
+		right: -2px;
+		width: 4px;
+		height: 0;
+		background: #f9f2e2;
+		animation: loadingLine 1s ease  4.5s forwards;
+	}
+}
+
+._left,
+._right {
+	animation: .7s ease 5.5s forwards;
+
+}
+._left {
+	left: 0;
+	animation-name: leftSide;
+	z-index: 999;
+}
+._right {
+	right: 0;
+	animation-name: rightSide;
+}
+
+@keyframes loadingTitle {
+    0% {
+        max-height: 0;
+    }
+}
+@keyframes disappearanceTitle {
+  100% {
+        opacity: 0;
+    }
+}
+
+@keyframes disappearancePreload {
+  100% {
+        top: -100%;
+    }
+}
+
+@keyframes leftSide {
+  100% {
+        left: -100%;
+    }
+}
+@keyframes rightSide {
+  100% {
+        right: -100%;
+    }
+}
+
+@keyframes loadingLine {
+  100% {
+        height: 100%;
+    }
+}
