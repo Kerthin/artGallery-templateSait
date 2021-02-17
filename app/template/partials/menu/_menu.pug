@@ -1,0 +1,18 @@
+#menu.menu._hover
+	.menu__icon
+		.menu__bar
+		.menu__bar
+.menuBg
+	.menuBg__box
+			- for (var x = 0; x < 10; x++)
+				div(class="menuBg__inner line-" + x)
+	.menuBg__box
+			- for (var x = 0; x < 10; x++)
+				div(class="menuBg__inner2 line-" + x)
+.links
+	ul.linksList
+		each val in ['artists', 'gallery', 'fairs', 'contact']
+			li.link
+				.linkBox
+					a.transition._hover(href=`${val}.html`) #{val}
+a.mainLink.transition._hover(href='index.html') art gallery

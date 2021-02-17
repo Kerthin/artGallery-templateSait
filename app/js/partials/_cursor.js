@@ -46,13 +46,13 @@ $("._hover").on("mouseleave", function() {
 });
 
 $("#menu").on("click", function() {
-	if ( $(this).hasClass("menu-open") ) {
-		cursor.addClass("menuActive");
-		follower.addClass("menuActive");
-		mainLink.addClass("menuActive");
-	} else {
-		cursor.removeClass("menuActive");
-		follower.removeClass("menuActive");
-		mainLink.removeClass("menuActive");
-	}
+  if ( $(this).hasClass("menu-open") ) {
+    cursor.toggleClass("menuActive");
+    follower.toggleClass("menuActive");
+    mainLink.toggleClass("menuActive");
+  } else {
+    cursor.toggleClass("menuActive");
+    follower.toggleClass("menuActive");
+    mainLink.toggleClass("menuActive");
+  }
 });
