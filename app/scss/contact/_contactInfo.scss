@@ -1,0 +1,19 @@
+.contactInfo {
+	display: flex;
+	justify-content: space-around;
+}
+.adressWrap,
+.contactWrap,
+.linkWrap {
+	font-family: Vienna;
+	font-size: 1.5vw;
+	color: #384338;
+}
+.contactWrap {
+	span {
+		font-weight: 900;
+	}
+}
+.linkWrap {
+	text-decoration: underline;
+}
