@@ -14,7 +14,7 @@ gsap.set(".linkBox", {
   y: 110
 });
 
-gsap.set(".picture, .artistWrap, .fairsWrap, .contactInfo, .galleryWrap", {
+gsap.set(".picture, .artistWrap, .slide, .fairsWrap, .contactInfo, .galleryWrap", {
   opacity: 0,
   y: 30,
   scale: 0.95
@@ -24,7 +24,7 @@ gsap.set(".picture, .fairsWrap", {
   yPercent: -50
 });
 
-gsap.to(".picture, .artistWrap, .slides, .fairsWrap, .contactInfo, .galleryWrap", {
+gsap.to(".picture, .artistWrap, .slide, .slides, .fairsWrap, .contactInfo, .galleryWrap", {
   ease: "sine.inout",
   opacity: 1,
   y: 0,
@@ -34,7 +34,7 @@ gsap.to(".picture, .artistWrap, .slides, .fairsWrap, .contactInfo, .galleryWrap"
 
 const menuOpen = gsap
   .timeline({ paused: true })
-  .to(".picture, .artistWrap, .fairsWrap, .contactInfo, .galleryWrap", {
+  .to(".picture, .artistWrap, .slide, .fairsWrap, .contactInfo, .galleryWrap", {
     ease: "sine.out",
     duration: 0.5,
     opacity: 0,

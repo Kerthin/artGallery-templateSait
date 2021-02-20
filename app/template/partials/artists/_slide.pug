@@ -1,0 +1,18 @@
+mixin artistSlide(surname, name, birth, death)
+	.slide
+		a(href=`${surname}.html`)
+			.slide__portrait(class=`_${surname}`)
+			.slide__layer
+			.slide__info._hover
+				p.slide__birth #{birth} - #{death}
+				p.slide__name #{name}<br/>#{surname}
+
+.slides
+	+artistSlide('aivazovsky', 'ivan', '1817', '1900')
+	+artistSlide('karazin', 'nikolay', '1842', '1908')
+	+artistSlide('vasnetsov', 'victor', '1848', '1928')
+	+artistSlide('shishkin', 'ivan', '1832', '1898')
+	+artistSlide('bryullov', 'karl', '1799', '1852')
+	+artistSlide('repin', 'ilya', '1844', '1930')
+	+artistSlide('vereshchagin', 'vasily', '1842', '1904')
+	+artistSlide('ivanov', 'andrey', '1775', '1848')

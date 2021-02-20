@@ -1,0 +1,53 @@
+.slide {
+	min-width: 25%;
+	height: 100vh;
+	border-right: 2px solid #e0d9cc;
+
+	&__portrait {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+	}
+
+	&__layer {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		background-color: #f9f2e2;
+		transition: background .3s;
+	}
+
+	&__info {
+		position: absolute;
+		left: 1.5vw;
+		bottom: 70px;
+	}
+
+	&__birth,
+	&__name {
+		font-family: Luxes;
+		color: #262b2d;
+	}
+	&__birth {
+		margin-bottom: 2vh;
+		font-size: 2vw;
+	}
+	&__name {
+		font-size: 2.5vw;
+		word-break: break-all;
+	}
+
+	&:hover {
+		.slide__layer {
+			background-color: transparent;
+		}
+
+		.slide__birth,
+		.slide__name {
+			color: #fff;
+		}
+	}
+}

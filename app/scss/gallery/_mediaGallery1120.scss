@@ -1,0 +1,26 @@
+@media screen and (max-width: 1120px) and (min-width: 961px) {
+	.galleryWrap {
+		width: 918px;
+
+		.exhibit {
+			margin-bottom: 58px;
+			width: 258px;
+
+			&__pic {
+				height: 283px;
+			}
+			&__autor {
+				right: -17px;
+				font-size: 12px;
+			}
+			&__title {
+				margin: 29px 0 17px;
+				font-size: 17px;
+			}
+			&__annotation {
+				font-size: 12px;
+				text-indent: 12px;
+			}
+		}
+	}
+}

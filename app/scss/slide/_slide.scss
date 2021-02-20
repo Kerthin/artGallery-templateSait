@@ -1,0 +1,9 @@
+.slides {
+	display: flex;
+	flex-grow: auto;
+	overflow-x: scroll;
+
+	.slide {
+		position: relative;
+	}
+}

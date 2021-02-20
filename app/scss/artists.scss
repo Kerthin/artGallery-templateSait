@@ -1,0 +1,10 @@
+@import 'linkFonts/_luxes.scss';
+@import 'linkFonts/_vienna.scss';
+
+.container {
+	height: 100vh;
+}
+
+@import 'slide/_slide.scss';
+@import 'artists/_slide.scss';
+@import 'artists/_slideBg.scss';

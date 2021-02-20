@@ -1,0 +1,14 @@
+@mixin artistSlide($surname) {
+	._#{$surname} {
+		background-image: url('../image/artists/#{$surname}/portrait.jpg');
+	}
+}
+
+@include artistSlide(aivazovsky);
+@include artistSlide(karazin);
+@include artistSlide(vasnetsov);
+@include artistSlide(shishkin);
+@include artistSlide(bryullov);
+@include artistSlide(repin);
+@include artistSlide(vereshchagin);
+@include artistSlide(ivanov);

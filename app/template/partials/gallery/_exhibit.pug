@@ -1,0 +1,24 @@
+mixin exhibitMix(surname, name, exhibitClass, date, title)
+	.exhibit
+		.exhibit__pic(class=`_${surname} _${exhibitClass}`)
+			p.exhibit__autor #{surname}, #{name}. C. #{date}
+		.exhibit__info
+			h2.exhibit__title #{title}
+			p.exhibit__annotation= annotationArray[`${exhibitClass}`]
+
+.galleryWrap
+	+exhibitMix('aivazovsky', 'Ivan Konstantinovich', 'Kronstadt_RAID', '1840', 'The Kronstadt Raid')
+	+exhibitMix('karazin', 'Nikolay Nikolayevich', 'crossing', '1889', 'Troops crossing Amu Darya in 1873')
+	+exhibitMix('vasnetsov', 'Viktor Mikhaylovich', 'knight', '1882', 'Knight at the Crossroads')
+	+exhibitMix('shishkin', 'Ivan Ivanovich', 'morning', '1889', 'Morning in a Pine Forest')
+	+exhibitMix('bryullov', 'Karl Pavlovich', 'pompeii', '1833', 'The Last Day of Pompeii')
+	+exhibitMix('repin', 'Ilya Yefimovich', 'alexander', '1886', 'Alexander III receiving rural district elders')
+	+exhibitMix('vereshchagin', 'Vasily Vasilyevich', 'apotheosis', '1871', 'The Apotheosis of War')
+	+exhibitMix('Ivanov', 'Andrey Ivanovich', 'pelopidas', '1805', 'Death of Pelopidas')
+	+exhibitMix('aivazovsky', 'Ivan Konstantinovich', 'Storm_over_Evpatoria', '1869', 'Storm over Evpatoria')
+	+exhibitMix('karazin', 'Nikolay Nikolayevich', 'metro', '1902', 'Project of Moscow Metro')
+	+exhibitMix('vasnetsov', 'Viktor Mikhaylovich', 'preference', '1879', 'Preference')
+	+exhibitMix('shishkin', 'Ivan Ivanovich', 'oakGrove', '1887', 'Oak Grove')
+	+exhibitMix('bryullov', 'Karl Pavlovich', 'strugovschikov', '1840', 'Portrait of A. N. Strugovshchikov')
+	+exhibitMix('repin', 'Ilya Yefimovich', 'council', '1903', 'Ceremonial Sitting of the State Council')
+	+exhibitMix('vereshchagin', 'Vasily Vasilyevich', 'plevna', '1881', 'Before the attack. Under Plevna')
