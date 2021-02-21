@@ -1,0 +1,41 @@
+.detailsWrap {
+	position: relative;
+	margin: 15% auto 0;
+	width: 100%;
+
+	&__collage {
+		position: relative;
+		margin: 0 auto;
+		width: 40%;
+
+		&._#{$artistSurname} {
+			.detailsWrap__img {
+				&:first-child {
+					background: url('../image/artists/#{$artistSurname}/left.jpg') center no-repeat;
+					background-size: cover;
+				}
+				&:last-child {
+					background: url('../image/artists/#{$artistSurname}/right.jpg') center no-repeat;
+					background-size: cover;
+				}
+			}
+		}
+
+		&:before {
+			content: "";
+			padding-top: 100%;
+			float: left;
+		}
+	}
+
+	&__img {
+		position: absolute;
+		width: 55%;
+		height: 55%;
+
+		&:last-child {
+			bottom: 10%;
+			right: 0;
+		}
+	}
+}

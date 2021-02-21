@@ -1,0 +1,19 @@
+@import 'linkFonts/_luxes.scss';
+@import 'linkFonts/_vienna.scss';
+
+.container {
+	width: 100%;
+	overflow: hidden;
+}
+
+.artistWrap {
+	margin: 10% auto 0;
+	width: 78%;
+}
+
+@import '_exhibitWrap.scss';
+@import '_synopsisWrap.scss';
+@import '_detailsWrap.scss';
+@import '_sliderWrap.scss';
+
+@import '_mediaArtist1400.scss';

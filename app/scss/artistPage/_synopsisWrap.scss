@@ -1,0 +1,37 @@
+.synopsisWrap {
+	position: relative;
+	margin: 15% auto 0;
+	width: 100%;
+
+	&__bg {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		font-size: 12vw;
+		font-family: Luxes;
+		font-weight: 100;
+		color: #e6ded8;
+	}
+}
+
+.synopsisParagraph {
+	position: relative;
+	width: 45%;
+
+	.synopsis {
+		font-size: 1.5vw;
+		line-height: 2vw;
+		color: #71766a;
+
+		&__name {
+			font-family: Luxes;
+			font-size: 2vw;
+		}
+	}
+
+	&:last-child {
+		margin-top: 10%;
+		float: right;
+	}
+}
