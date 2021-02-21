@@ -1,0 +1,9 @@
+.synopsisWrap.clearfix
+	h1.synopsisWrap__bg synopsis
+	.synopsisParagraph
+		p.synopsis._hover
+			span.synopsis__name #{name} #{surname}
+			br
+			= synopsisArray[`${surname}`].first
+	.synopsisParagraph
+		p.synopsis._hover= synopsisArray[`${surname}`].second

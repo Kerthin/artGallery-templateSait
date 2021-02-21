@@ -1,0 +1,6 @@
+mixin exhibitSlide(exhibitClass, exhibitDate, exhibitName)
+	.slide
+		img.slide__pic(src=`image/artists/${surname}/${exhibitClass}.jpg`)
+		.slide__info
+			p.slide__date #{exhibitDate}
+			h1.slide__name(class=`_${surname}`) #{exhibitName}

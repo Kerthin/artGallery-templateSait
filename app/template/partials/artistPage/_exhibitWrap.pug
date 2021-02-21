@@ -1,0 +1,8 @@
+.exhibitWrap
+	.exhibitWrap__info
+		p.exhibitWrap__genre #{genre} Painter
+		.exhibitWrap__nameWrap
+			h1.exhibitWrap__artist #{name} #{surname}
+			h2.exhibitWrap__picName #{pictureName}
+		p.exhibitWrap__date #{fullBirthDate} - #{fullDeathDate}
+	.exhibitWrap__picture(class=`_${surname}`)
