@@ -1,0 +1,15 @@
+html
+	head
+		include template/head.pug
+		include template/partials/_general.pug
+		include template/partials/_vereshchagin/_linkVereshchagin.pug
+	body
+		.container
+			include template/partials/cursor/_cursor.pug
+			include template/partials/menu/_menu.pug
+			include template/partials/_vereshchagin/_variables.pug
+			.artistWrap
+				include template/partials/artistPage/_artistWrap.pug
+				include template/partials/_vereshchagin/_slideWrap.pug
+		include template/partials/_jsLibraries.pug
+		include template/partials/_mainScripts.pug
