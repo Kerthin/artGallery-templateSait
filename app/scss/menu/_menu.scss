@@ -76,6 +76,7 @@
 
 		.link {
 			overflow: hidden;
+			// margin: 1% 0;
 
 			.transition {
 				position: relative;
@@ -106,3 +107,5 @@
 		}
 	}
 }
+
+@import '_mediaMenu1120.scss';

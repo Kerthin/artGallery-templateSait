@@ -1,0 +1,29 @@
+@media screen and (max-width: 1120px) {
+	.artistWrap {
+		margin: 15% auto 0;
+	}
+
+	.sliderWrap {
+		height: 250px;
+
+		.slides {
+			.slide {
+				margin-right: 32px;
+
+				&__pic {
+					height: 70%;
+				}
+
+				&__date,
+				&__name:after,
+				&__artist {
+					font-size: 9px;
+				}
+
+				&__name {
+					font-size: 15px;
+				}
+			}
+		}
+	}
+}

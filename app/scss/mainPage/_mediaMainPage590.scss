@@ -1,0 +1,17 @@
+@media screen and (max-width: 590px) {
+	.picture {
+		top: 55%;
+		height: 70%;
+
+		&__title {
+			font-size: 6vw;
+		}
+
+		&__infoWrap {
+			width: 40%;
+		}
+		&__info {
+			font-size: 3vh;
+		}
+	}
+}

@@ -1,0 +1,17 @@
+@media screen and (max-width: 1120px) {
+	.slide {
+		min-width: 50%;
+
+		&__info {
+			left: 3vw;
+			bottom: 15vh;
+		}
+
+		&__birth {
+			font-size: 4vw;
+		}
+		&__name {
+			font-size: 5vw;
+		}
+	}
+}

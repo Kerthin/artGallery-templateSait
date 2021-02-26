@@ -30,19 +30,4 @@ a {
 
 @import 'cursor/_cursor.scss';
 @import 'menu/_menu.scss';
-
-.mainLink {
-	position: fixed;
-	top: 3.5%;
-	left: 6%;
-	font-family: Vienna;
-	font-size: 2.5vh;
-	font-weight: 900;
-	letter-spacing: -2px;
-	color: #262b2d;
-	transition: color 2s;
-	z-index: 1;
-}
-.mainLink.menuActive {
-  color: #f9f2e2;
-}
+@import 'mainLink/_mainLink.scss';

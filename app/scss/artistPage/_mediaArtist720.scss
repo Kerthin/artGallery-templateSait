@@ -1,0 +1,38 @@
+@media screen and (max-width: 720px) {
+	.artistWrap {
+		margin: 20% auto 0;
+	}
+
+	.exhibitWrap {
+
+		&__genre,
+		&__date {
+			font-size: 2.5vw;
+		}
+		
+		&__artist,
+		&__picName {
+			font-size: 7.2vw;
+		}
+	}
+
+	.synopsisParagraph {
+		width: 80%;
+
+		.synopsis {
+			font-size: 3vw;
+			line-height: 4vw;
+
+			&__name {
+				font-size: 4vw;
+			}
+		}
+	}
+
+	.detailsWrap {
+
+		&__collage {
+			width: 80%;
+		}
+	}
+}

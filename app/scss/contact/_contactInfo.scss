@@ -1,5 +1,6 @@
 .contactInfo {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
 .adressWrap,
@@ -7,7 +8,9 @@
 .linkWrap {
 	font-family: Vienna;
 	font-size: 1.5vw;
+	text-align: center;
 	color: #384338;
+	// background-color: pink;
 }
 .contactWrap {
 	span {
