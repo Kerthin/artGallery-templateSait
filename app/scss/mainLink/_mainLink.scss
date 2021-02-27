@@ -6,12 +6,12 @@
 	font-size: 2.5vh;
 	font-weight: 900;
 	letter-spacing: -2px;
-	color: #262b2d;
+	color: $palette-tertiary;
 	transition: color 2s;
 	z-index: 9999;
 }
 .mainLink.menuActive {
-  color: #f9f2e2;
+  color: $palette-secondary;
 }
 
 @import '_mediaMainLink590.scss';

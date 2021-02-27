@@ -7,6 +7,7 @@
 	width: 0;
 }
 
+@import '_variables/_variables.scss';
 @import 'linkFonts/_vienna.scss';
 
 body {
@@ -25,7 +26,7 @@ a {
 }
 
 .container {
-	background-color: #f9f2e2;
+	background-color: $palette-secondary;
 }
 
 @import 'cursor/_cursor.scss';

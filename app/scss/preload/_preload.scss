@@ -22,7 +22,7 @@
 			overflow: hidden;
 			max-height: 5.4vh;
 			white-space: nowrap;
-			color: #f9f2e2;
+			color: $palette-secondary;
 			animation: loadingTitle 4s ease;
 		}
 	}
@@ -31,14 +31,14 @@
 	  position: absolute;
 	  width: 50%;
 	  height: 100vh;
-	  background-color: #262b2d;
+	  background-color: $palette-tertiary;
 	}
 	&__line {
 		position: absolute;
 		right: -2px;
 		width: 4px;
 		height: 0;
-		background: #f9f2e2;
+		background: $palette-secondary;
 		animation: loadingLine 1s ease  4.5s forwards;
 	}
 }

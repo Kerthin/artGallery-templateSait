@@ -1,0 +1,14 @@
+// Internal variables
+$x-color-white:  #fff;
+$x-color-black:  #000;
+$x-color-olive:  #384338;
+$x-color-gainsborough:  #e0d9cc;
+$x-color-linen:  #f9f2e2;
+$x-color-signal:  #262b2d;
+$x-color-cursor-transform:  cubic-bezier(0.75, -1.27, 0.3, 2.33);
+$x-color-cursor-opacity:  cubic-bezier(0.75, -0.27, 0.3, 1.33);
+
+// Globbal variables
+$palette-primary: $x-color-olive;
+$palette-secondary: $x-color-linen;
+$palette-tertiary: $x-color-signal;

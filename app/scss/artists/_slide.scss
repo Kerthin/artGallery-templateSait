@@ -1,7 +1,7 @@
 .slide {
 	min-width: 25%;
 	height: 100vh;
-	border-right: 2px solid #e0d9cc;
+	border-right: 2px solid $x-color-gainsborough;
 
 	&__portrait {
 		position: absolute;
@@ -16,7 +16,7 @@
 		position: absolute;
 		width: 100%;
 		height: 100%;
-		background-color: #f9f2e2;
+		background-color: $palette-secondary;
 		transition: background .3s;
 	}
 
@@ -29,7 +29,7 @@
 	&__birth,
 	&__name {
 		font-family: Luxes;
-		color: #262b2d;
+		color: $palette-tertiary;
 	}
 	&__birth {
 		margin-bottom: 2vh;
@@ -47,7 +47,7 @@
 
 		.slide__birth,
 		.slide__name {
-			color: #fff;
+			color: $x-color-white;
 		}
 	}
 }

@@ -20,7 +20,7 @@
 		font-family: Luxes;
 		font-weight: 100;
 		white-space: nowrap;
-		color: #384338;
+		color: $palette-primary;
 
 		span {
 			margin-left: 13%;
@@ -32,7 +32,7 @@
 		top: 37%;
 		right: -4.2%;
 		width: 31%;
-		background-color: #f9f2e2;
+		background-color: $palette-secondary;
 		opacity: .9;
 	}
 	&__info {
@@ -41,6 +41,6 @@
 		font-weight: 100;
 		word-spacing: 5px;
 		text-align: right;
-		color: #384338;
+		color: $palette-primary;
 	}
 }

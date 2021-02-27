@@ -13,7 +13,7 @@
 		font-size: 1.2vw;
 		font-family: Luxes;
 		font-weight: 100;
-		color: #384338;
+		color: $palette-primary;
 	}
 	&__genre {
 		margin-bottom: 3%;
@@ -24,8 +24,8 @@
 
 	&__nameWrap {
 		padding: 2% 0;
-		border-top: 1px solid #384338;
-		border-bottom: 1px solid #384338;
+		border-top: 1px solid $palette-primary;
+		border-bottom: 1px solid $palette-primary;
 	}
 
 	&__artist,
@@ -34,7 +34,7 @@
 		font-size: 4.1vw;
 		font-family: Luxes;
 		font-weight: 100;
-		color: #384338;
+		color: $palette-primary;
 	}
 
 	&__picture {
