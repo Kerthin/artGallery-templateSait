@@ -1,4 +1,4 @@
-<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="100" src="READMEimage/squirrelAppIcon.png" alt="Kerthin logo"></a></p>
+<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="100" src="READMEimage/technology/squirrelAppIcon.png" alt="Kerthin logo"></a></p>
 
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
